@@ -10,3 +10,5 @@ def generate_runtime_complexity_table(n):
       f"Insertion Sort {n*(n-1)//2} O(n^2) Grows quadratically"
     ]
     return output
+
+print(generate_runtime_complexity_table(100))
