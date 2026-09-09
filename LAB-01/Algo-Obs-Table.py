@@ -1,6 +1,5 @@
 from math import floor,log2
 def generate_execution_observation_table(sizes):
-    # your code goes here
     def rfib(n):
       if n<=1:
         return 1
@@ -25,3 +24,5 @@ def generate_execution_observation_table(sizes):
       output.append(row)
       
     return output
+
+print(generate_execution_observation_table([5, 10, 15, 20]))
