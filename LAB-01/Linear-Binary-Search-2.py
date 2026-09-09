@@ -1,5 +1,4 @@
 def compare_search_algorithms(arr, target):
-    # your code goes here
   # Binary Search 
     def binary_search(arr,target):
         low=0
@@ -51,3 +50,5 @@ def compare_search_algorithms(arr, target):
         result.append("Better Algorithm: Both Equal")
 
     return result
+
+print(compare_search_algorithms([10, 20, 30, 40, 50], 30))
