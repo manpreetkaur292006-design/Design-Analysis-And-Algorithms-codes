@@ -51,4 +51,4 @@ def compare_search_algorithms(arr, target):
 
     return result
 
-print(compare_search_algorithms([10, 20, 30, 40, 50], 30))
+print("\n".join(compare_search_algorithms([10, 20, 30, 40, 50], 30)))

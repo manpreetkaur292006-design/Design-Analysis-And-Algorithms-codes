@@ -101,8 +101,8 @@ def compare_bubble_insertion(random_data, sorted_data, reverse_data):
     
   return output
 
-print(compare_bubble_insertion(
+print("\n".join(compare_bubble_insertion(
     [5, 2, 8, 1, 6],
     [1, 2, 5, 6, 8],
     [8, 6, 5, 2, 1]
-))
+)))
