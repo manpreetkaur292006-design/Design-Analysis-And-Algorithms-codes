@@ -11,4 +11,4 @@ def generate_runtime_complexity_table(n):
     ]
     return output
 
-print(generate_runtime_complexity_table(100))
+print("\n".join(generate_runtime_complexity_table(100)))

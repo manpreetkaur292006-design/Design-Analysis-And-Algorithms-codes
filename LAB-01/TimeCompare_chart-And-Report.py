@@ -29,4 +29,4 @@ def generate_runtime_chart_report(sizes):
   
     return output+output_summary
 
-print(generate_runtime_chart_report([10, 20, 50, 100]))
+print("\n".join(generate_runtime_chart_report([10, 20, 50, 100])))

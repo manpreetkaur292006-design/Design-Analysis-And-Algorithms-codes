@@ -25,4 +25,4 @@ def generate_execution_observation_table(sizes):
       
     return output
 
-print(generate_execution_observation_table([5, 10, 15, 20]))
+print("\n".join(generate_execution_observation_table([5, 10, 15, 20])))
