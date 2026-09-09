@@ -55,4 +55,4 @@ def analyze_recursive_iterative(n):
   return result
 
 n=int(input("Enter your input :"))
-print(analyze_recursive_iterative(n))
+print("\n".join(analyze_recursive_iterative(n)))
