@@ -41,7 +41,7 @@ def complete_algorithm_performance_assessment(n, arr, target):
         comparisons+=1
         if arr[mid]==target:
           result_idx=mid
-          high=low-1
+          high=mid-1
         elif arr[mid]<target:
           low=mid+1
         else:
@@ -52,11 +52,11 @@ def complete_algorithm_performance_assessment(n, arr, target):
       comparisons=0
       swaps=0
       n=len(arr)
-      for i in range(n):
+      for i in range(n-1):
         swapped=False
         for j in range(n-i-1):
           comparisons+=1
-          if arr[j]>=arr[j+1]:
+          if arr[j]>arr[j+1]:
             arr[j],arr[j+1]=arr[j+1],arr[j]
             swaps+=1
             swapped=True
@@ -68,7 +68,7 @@ def complete_algorithm_performance_assessment(n, arr, target):
       comparisons=0
       shifts=0
       n=len(arr)
-      for i in range(n):
+      for i in range(1,n):
         key=arr[i]
         j=i-1
         while j>=0:
