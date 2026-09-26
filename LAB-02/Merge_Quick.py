@@ -72,3 +72,17 @@ def compare_merge_quick_tasks(tasks):
         output.append("Better Algorithm: Both Equal")
 
     return output
+
+# function calling
+tasks = [
+    ("T1", 5),
+    ("T2", 8),
+    ("T3", 3),
+    ("T4", 8),
+    ("T5", 6)
+]
+
+result = compare_merge_quick_tasks(tasks)
+
+for line in result:
+    print(line)
