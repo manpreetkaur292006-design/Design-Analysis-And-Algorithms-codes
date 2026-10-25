@@ -49,3 +49,4 @@ result = select_meeting_activities(activities)
 
 for line in result:
     print(line)
+
